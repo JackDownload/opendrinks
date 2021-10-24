@@ -63,7 +63,7 @@ export default {
 {
   "hu": {
     "You don't have any favorite drinks": "You don't have any favorite drinks",
-    "Remove All Favorites": "Remove All Favorites",
+    "Remove All Favorites": "Összes törlése a kedvencek küzül",
     "Are you sure you want to remove all favorites": "Are you sure you want to remove all favorites",
     "Delete": "Törlés",
     "Cancel": "Elvetés"
