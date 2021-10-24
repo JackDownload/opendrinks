@@ -4,17 +4,17 @@
   <div class="card u-clearfix">
     <div class="card-body">
       <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
-      <span class="card-number card-circle subtle">01</span>
-      <span class="card-author subtle">John Smith</span>
-      <h2 class="card-title"> {{ o.name }}</h2>
-      <span class="card-description subtle"> {{ o.description }}</span>
-      <div class="card-read">Read</div>
-      <span class="card-tag card-circle subtle">C</span>
-    </div>
-    <img src="https://s15.postimg.cc/temvv7u4r/recipe.jpg" alt="" class="card-media" />
+        <span class="card-number card-circle subtle">01</span>
+        <span class="card-author subtle">John Smith</span>
+        <h2 class="card-title"> {{ o.name }}</h2>
+        <span class="card-description subtle"> {{ o.description }}</span>
+        <div class="card-read">Read</div>
+        <span class="card-tag card-circle subtle">C</span>
+        <img src="o.image ? require(`@/assets/recipes/${o.image}`) : null" alt="" class="card-media" />
     </div>
   </div>
   <div class="card-shadow"></div>
+  </div>
 </div>
     <b-card-group deck>
       <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
