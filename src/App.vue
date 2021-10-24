@@ -54,7 +54,7 @@ export default {
     return {
       title: 'Open Drinks',
       htmlAttrs: {
-        lang: 'en',
+        lang: 'hu',
       },
       meta: [
         {
@@ -111,12 +111,12 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Featured": "特集",
-    "Random": "ランダム",
-    "Explore": "探索",
-    "Keywords": "キーワード",
-    "Search": "検索"
+  "hu": {
+    "Featured": "Újdonság",
+    "Random": "Véletlen",
+    "Explore": "Felfedezés",
+    "Keywords": "Kulcs szó",
+    "Search": "Keresés"
   },
   "fr": {
     "Featured": "En vedette",
