@@ -288,7 +288,7 @@ export default {
 <i18n>
 {
   "hu": {
-    "Contributed by": "提供",
+    "Contributed by": "Szerző",
     "Ingredients": "Hozzávalók",
     "Directions": "Elkészítés",
     "View full recipe at": "Teljes recepet",
