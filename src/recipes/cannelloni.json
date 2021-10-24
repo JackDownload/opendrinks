@@ -1,57 +1,55 @@
 {
-    "name": "Cannelloni – töltött tészta hengerek",
-    "description": "A cannelloni vastag cső alakú olasz tésztaféle, amelyet általában darált hússal.Hozzávalók:(négy személy részére)",
-     "ingredients": [
-        {
-            "quantity": "16",
-            "measure": "drb",
-            "ingredient": "cannelloni tészta hengerek"
-        },
-        {
-            "quantity": "40",
-            "measure": "dkg",
-            "ingredient": "darált csirkemell"
-        },
-        {
-            "quantity": "1",
-            "measure": "drb",
-            "ingredient": "közepes padlizsán"
-        },
-        {
-            "quantity": "1",
-            "measure": "drb",
-            "ingredient": "közepes vöröshagyma"
-        },
-        {
-            "quantity": "3",
-            "measure": "gerezd",
-            "ingredient": "fokhagyma"
-        },
-        {
-            "quantity": "20",
-            "measure": "mL",
-            "ingredient": "sweet and sour soup"
-        },
-        {
-            "quantity": "15",
-            "measure": "mL",
-            "ingredient": "lime juice"
-        },
-        {
-            "quantity": "1",
-            "measure": "",
-            "ingredient": "mint sprig"
-        }
-    ],
-    "directions": [
-        "Elkészítés: Olajon megpárolom az apróra vágott vöröshagymát és fokhagymát, majd hozzáadom az a szintén apróra vágott padlizsán kockákat. A  hús is hozzá kerül, sózom, borsozom, megszórom apróra vágott bazsalikommal és megsütöm. Legvégén megszórom két evőkanál zsemlyemorzsával. Kicsit hűlni hagyom. Egy kiskanál segítségével megöltöm a nyers tészta hengereket. Az edényt kiolajozom és a paradicsomlevet az aljára ötöm. Ebbe kerülnek a tészta hengerek,tetejére basamell mártást öntök. Lefedem és 45 percig sütöm. Salátával tálalom: a paradicsomot kockákra vágom, megsózom, meglocsolom olívaolajjal és balzsamecettel, tálaláskor pedig rukkola salátával gazdagítom. A cannelloni vastag cső alakú olasz tésztaféle, amelyet általában darált hússal, ricottával, spenóttal stb. töltenek meg, majd paradicsomszósszal és besamellel öntenek le, végül sütőben megsütik."
-    ],
-    "image": "cannelloni.jpg",
-    "keywords": [
-        "camellonbi",
-        "summer",
-        "mango",
-        "indian",
-        "cocktail"
-    ]
+  "name": "Cannelloni",
+  "description": "A cannelloni vastag cső alakú olasz tésztaféle, amelyet általában darált hússal.Hozzávalók:(négy személy részére)",
+  "ingredients": [
+    {
+      "quantity": "16",
+      "measure": "drb",
+      "ingredient": "cannelloni tészta hengerek"
+    },
+    {
+      "description": "A cannelloni vastag cső alakú olasz"
+    },
+    {
+      "quantity": "1",
+      "measure": "drb",
+      "ingredient": "közepes padlizsán"
+    },
+    {
+      "quantity": "1",
+      "measure": "drb",
+      "ingredient": "közepes vöröshagyma"
+    },
+    {
+      "quantity": "3",
+      "measure": "gerezd",
+      "ingredient": "fokhagyma"
+    },
+    {
+      "quantity": "20",
+      "measure": "mL",
+      "ingredient": "sweet and sour soup"
+    },
+    {
+      "quantity": "15",
+      "measure": "mL",
+      "ingredient": "lime juice"
+    },
+    {
+      "quantity": "1",
+      "measure": "",
+      "ingredient": "mint sprig"
+    }
+  ],
+  "directions": [
+    "Elkészítés: Olajon megpárolom az apróra vágott vöröshagymát és fokhagymát, majd hozzáadom az a szintén apróra vágott padlizsán kockákat. A  hús is hozzá kerül, sózom, borsozom, megszórom apróra vágott bazsalikommal és megsütöm. Legvégén megszórom két evőkanál zsemlyemorzsával. Kicsit hűlni hagyom. Egy kiskanál segítségével megöltöm a nyers tészta hengereket. Az edényt kiolajozom és a paradicsomlevet az aljára ötöm. Ebbe kerülnek a tészta hengerek,tetejére basamell mártást öntök. Lefedem és 45 percig sütöm. Salátával tálalom: a paradicsomot kockákra vágom, megsózom, meglocsolom olívaolajjal és balzsamecettel, tálaláskor pedig rukkola salátával gazdagítom. A cannelloni vastag cső alakú olasz tésztaféle, amelyet általában darált hússal, ricottával, spenóttal stb. töltenek meg, majd paradicsomszósszal és besamellel öntenek le, végül sütőben megsütik."
+  ],
+  "image": "cannelloni.jpg",
+  "keywords": [
+    "camellonbi",
+    "summer",
+    "mango",
+    "indian",
+    "cocktail"
+  ]
 }
