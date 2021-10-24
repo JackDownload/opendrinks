@@ -152,8 +152,8 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "View Recipe": "レシピを見る"
+  "hu": {
+    "View Recipe": "Recept megtekintése"
   },
   "fr": {
     "View Recipe": "Voir la Recette"
