@@ -51,11 +51,16 @@
             </li>
           </ul>
         </div>
-
+        <a href="#img1">
+          <img :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null" />
+          </a>
         <div class="recipe-image" v-if="showImage">
+          <a href="#img1">
+            <img :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null" />
+            </a>
           <b-img
             right
-            class="lightbox"
+            class="mb-4"
             :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null"
             :alt="drink.name"
             rounded
@@ -283,7 +288,8 @@ export default {
     order: 2;
     width: 100%;
   }
-  .italic { font-style: italic; }
+}
+.italic { font-style: italic; }
 .small { font-size: 0.8em; }
 
 /** LIGHTBOX MARKUP **/
@@ -306,9 +312,12 @@ export default {
   /* Translucent background */
   background: rgba(0, 0, 0, 0.8);
 }
-  .lightbox:target {
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
   display: block;
 }
+
 .lightbox span {
   /* Full width and height */
   display: block;
