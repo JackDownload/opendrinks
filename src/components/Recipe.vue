@@ -53,9 +53,9 @@
         </div>
 
         <div class="recipe-image" v-if="showImage">
-          <b-media
+          <b-img
             right
-            class="mb-4"
+            class="lightbox"
             :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null"
             :alt="drink.name"
             rounded
@@ -283,6 +283,42 @@ export default {
     order: 2;
     width: 100%;
   }
+  .italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+  .lightbox:target {
+  display: block;
+}
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 </style>
 
