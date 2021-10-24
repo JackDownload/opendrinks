@@ -45,16 +45,15 @@
         <div class="recipe-ingredients">
           <h2 class="h4">{{ $t('Ingredients') }}</h2>
           <ul v-for="(o, i) in drink.ingredients" v-bind:key="i">
-             <h1>{{ o.description }}</h1>
-            <li >
-
+            <h1>{{ o.description }}</h1>
+            <li>
               {{ o.quantity + ' ' + o.measure + ' ' + o.ingredient }}
             </li>
           </ul>
         </div>
 
         <div class="recipe-image" v-if="showImage">
-          <b-img
+          <b-media
             right
             class="mb-4"
             :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null"
