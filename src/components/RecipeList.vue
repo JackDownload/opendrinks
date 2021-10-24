@@ -1,6 +1,6 @@
 <template>
   <div id="recipe-list" class="">
-        <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
+        <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-4">
     <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
               <b-card
