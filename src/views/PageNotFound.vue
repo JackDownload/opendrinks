@@ -24,9 +24,9 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "The page you are looking for was not found.": "お探しのページは見つかりませんでした。",
-    "Back to Home": "ホームに戻る"
+  "hu": {
+    "The page you are looking for was not found.": "Keresett oldal nem található",
+    "Back to Home": "Viszza a fő oldalra"
   },
   "fr": {
     "The page you are looking for was not found.": "Page non trouvée",

@@ -183,11 +183,11 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Filter by": "検索条件",
-    "Name": "名前",
-    "Ingredients": "材料",
-    "Keywords": "キーワード",
+  "hu": {
+    "Filter by": "Szürész e szerint",
+    "Name": "Név",
+    "Ingredients": "Hozzávalók",
+    "Keywords": "Kulcls szó",
     "You can search for multiple ingredients by separating them with a space": "スペースで区切ることで複数の材料で検索できます",
     "You can search for multiple keywords by separating them with a space": "スペースで区切ることで複数のキーワードで検索できます"
   },

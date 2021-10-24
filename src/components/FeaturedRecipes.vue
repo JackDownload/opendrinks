@@ -54,8 +54,8 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Load More": "もっと見る"
+  "hu": {
+    "Load More": "Többi betöltése"
   },
   "fr": {
     "Load More": "Voir plus"

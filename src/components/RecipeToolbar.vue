@@ -152,13 +152,13 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Print": "印刷",
-    "Share": "共有",
+  "hu": {
+    "Print": "Nyomtatás",
+    "Share": "Megosztás",
     "Share on Facebook": "Facebook",
     "Share on Twitter": "Twitter",
-    "Copy URL": "URLをコピー",
-    "Hide Image": "画像を非表示"
+    "Copy URL": "URL másolása",
+    "Hide Image": "Kép elrejtése"
   },
   "fr": {
     "Print": "Imprimer",

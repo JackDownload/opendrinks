@@ -40,8 +40,8 @@ export default {
 
 <i18n>
 {
-  "no": {
-    "Enter your keyword": "Søk etter nøkkelord"
+  "hu": {
+    "Enter your keyword": "Kérem a kulcs szavat!"
   },
   "bn": {
     "Enter your keyword": "আপনার কীওয়ার্ড লিখুন"

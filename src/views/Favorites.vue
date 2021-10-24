@@ -61,12 +61,12 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "You don't have any favorite drinks": "お気に入りのドリンクがありません",
-    "Remove All Favorites": "お気に入りをすべて削除する",
-    "Are you sure you want to remove all favorites": "お気に入りをすべて削除してもよろしいですか？",
-    "Delete": "削除",
-    "Cancel": "キャンセル"
+  "hu": {
+    "You don't have any favorite drinks": "You don't have any favorite drinks",
+    "Remove All Favorites": "Remove All Favorites",
+    "Are you sure you want to remove all favorites": "Are you sure you want to remove all favorites",
+    "Delete": "Törlés",
+    "Cancel": "Elvetés"
   },
   "fr": {
     "You don't have any favorite drinks": "Vous n'avez pas de cocktails favoris",

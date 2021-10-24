@@ -121,10 +121,10 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Filters": "フィルター",
-    "Reset Filters": "条件をクリア",
-    "Add Keyword": "キーワードを追加"
+  "hu": {
+    "Filters": "Szűrés",
+    "Reset Filters": "Szűrés elfelejtése",
+    "Add Keyword": "Kulcs szó megeadása"
   },
   "fr": {
     "Filters": "Filtres",

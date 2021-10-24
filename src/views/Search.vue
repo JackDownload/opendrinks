@@ -18,8 +18,8 @@ export default {
 
 <i18n>
 {
-  "ja": {
-    "Find Your Drink": "あなたのドリンクを見つけよう"
+  "hu": {
+    "Find Your Drink": "Find Your Drink"
   },
   "fr": {
     "Find Your Drink": "Rechercher votre cocktail"

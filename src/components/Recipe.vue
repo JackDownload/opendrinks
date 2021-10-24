@@ -287,12 +287,12 @@ export default {
 
 <i18n>
 {
-  "ja": {
+  "hu": {
     "Contributed by": "提供",
-    "Ingredients": "材料",
-    "Directions": "手順",
-    "View full recipe at": "完全なレシピを見る",
-    "Similar drinks": "似ているドリンク"
+    "Ingredients": "Hozzávalók",
+    "Directions": "Elkészítés",
+    "View full recipe at": "Teljes recepet",
+    "Similar drinks": "Italok"
   },
     "fr": {
     "Contributed by": "Partagé par",
