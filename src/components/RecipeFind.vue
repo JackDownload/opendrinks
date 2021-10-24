@@ -188,8 +188,8 @@ export default {
     "Name": "Név",
     "Ingredients": "Hozzávalók",
     "Keywords": "Kulcls szó",
-    "You can search for multiple ingredients by separating them with a space": "スペースで区切ることで複数の材料で検索できます",
-    "You can search for multiple keywords by separating them with a space": "スペースで区切ることで複数のキーワードで検索できます"
+    "You can search for multiple ingredients by separating them with a space": "Több összetevőt is kereshet, ha szóközzel választja el őket",
+    "You can search for multiple keywords by separating them with a space": "Több kulcsszóra is rákereshet, ha szóközzel választja el őket"
   },
   "fr": {
     "Filter by": "Filtrer par",
