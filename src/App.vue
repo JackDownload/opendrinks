@@ -7,7 +7,7 @@
         <h1 class="logo">
           <router-link to="/">
             <img alt="Logo" src="./assets/logo.png" width="50" />
-            Open Drinks
+            Vassfazék
           </router-link>
         </h1>
       </div>
