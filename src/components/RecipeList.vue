@@ -3,7 +3,12 @@
         <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
     <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
-      <div class="bg-cover h-48" style="background-image: url(`@/assets/recipes/${o.image}`);"></div>
+              <b-card
+          :title="o.name"
+          :img-src="o.image ? require(`@/assets/recipes/${o.image}`) : null"
+          :img-alt="o.name"
+          img-top
+        >
       <div class="p-4 flex-1 flex flex-col" style="
 ">
         <h3 class="mb-4 text-2xl">{{ o.name }}</h3>
