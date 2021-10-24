@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="mb-4">
-    <GitHubCorner class="theme-bg-color" v-if="!isMobile && !isPrintPage" />
     <ThemeHandler class="mt-2 ml-2" v-if="!isMobile && !isPrintPage"></ThemeHandler>
     <div class="container mb-4 mt-4">
       <div class="mb-4 d-flex">
@@ -39,14 +38,12 @@
 </template>
 
 <script>
-import GitHubCorner from '@/components/GitHubCorner.vue';
 import ThemeHandler from '@/components/ThemeHandler.vue';
 import Adspace from '@/components/Adspace.vue';
 
 export default {
   name: 'App',
   components: {
-    GitHubCorner,
     ThemeHandler,
     Adspace,
   },
