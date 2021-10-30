@@ -51,13 +51,8 @@
             </li>
           </ul>
         </div>
-        <a href="#img1">
-          <img :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null" />
-          </a>
+
         <div class="recipe-image" v-if="showImage">
-          <a href="#img1">
-            <img :src="drink.image ? require(`@/assets/recipes/${drink.image}`) : null" />
-            </a>
           <b-img
             right
             class="mb-4"
@@ -289,6 +284,7 @@ export default {
     width: 100%;
   }
 }
+
 .italic { font-style: italic; }
 .small { font-size: 0.8em; }
 
