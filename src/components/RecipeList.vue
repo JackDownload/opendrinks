@@ -1,5 +1,31 @@
 <template>
   <div id="recipe-list" class="">
+        <b-card-group deck>
+      <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
+<div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+              <b-card
+          :title="o.name"
+          :img-src="o.image ? require(`@/assets/recipes/${o.image}`) : null"
+          :img-alt="o.name"
+          img-top
+        >
+      <div class="p-4 flex-1 flex flex-col" style="
+">
+        <h3 class="mb-4 text-2xl">{{ o.name }}</h3>
+        <div class="mb-4 text-grey-darker text-sm flex-1">
+          <p> {{ o.description }} </p>
+        </div>
+        <a href="#" class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style="
+">Twitter</a>
+          <b-button :to="'/recipe/' + o.filename" variant="primary" v-t="'View Recipe'" />
+          <FavoriteStar
+            class="mt-2 float-right"
+            @favorite="favorited(o.name)"
+            :isFavorited="favorites.includes(o.name)"
+          ></FavoriteStar>
+      </div>
+      </div>
+    </b-card-group>
         <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
     <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
