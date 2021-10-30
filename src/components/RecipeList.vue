@@ -5,8 +5,6 @@
           <figure class="snip1581"><img v-bind:src="o.image ? require(`@/assets/recipes/${o.image}`) : null" alt="{{ o.name }}"/>
   <figcaption>
     <h3 class="title1">{{ o.name }}</h3>
-    <h3 class="title2">Winter</h3>
-    <h3 class="title3"><b-button :to="'/recipe/' + o.filename" variant="primary" v-t="'View Recipe'" /></h3>
   </figcaption>
 </figure>
             </div>
