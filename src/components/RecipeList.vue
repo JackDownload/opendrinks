@@ -54,7 +54,7 @@
   </div>
         </div>
     <b-card-group deck>
-      <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
+      <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="bg-white rounded-lg shadow-lg overflow-hidden card-wrapper mb-2">
         <b-card
           :title="o.name"
           :img-src="o.image ? require(`@/assets/recipes/${o.image}`) : null"
