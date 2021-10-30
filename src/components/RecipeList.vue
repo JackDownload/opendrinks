@@ -1,5 +1,27 @@
 <template>
   <div id="recipe-list" class="">
+
+<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg" alt="profile-sample2"/>
+  <figcaption>
+    <h3 class="title1">The</h3>
+    <h3 class="title2">Winter</h3>
+    <h3 class="title3">Collection</h3>
+  </figcaption><a href="#"></a>
+</figure>
+<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample13.jpg" alt="profile-sample7"/>
+  <figcaption>
+    <h3 class="title1">The</h3>
+    <h3 class="title2">Summer</h3>
+    <h3 class="title3">Collection</h3>
+  </figcaption><a href="#"></a>
+</figure>
+<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg" alt="profile-sample6"/>
+  <figcaption>
+    <h3 class="title1">The</h3>
+    <h3 class="title2">Autumn</h3>
+    <h3 class="title3">Collection</h3>
+  </figcaption><a href="#"></a>
+</figure>
         <b-card-group deck>
       <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
 <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
@@ -200,6 +222,80 @@ export default {
 .card-img-top {
   height: 212px;
   object-fit: cover;
+}
+.snip1581 {
+  font-family: 'Poppins:400,700', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #a58e7c;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+  -webkit-transform: scale(1.3) rotate(5deg);
+  transform: scale(1.3) rotate(5deg);
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+  text-align: center;
 }
 </style>
 

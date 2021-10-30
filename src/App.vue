@@ -86,7 +86,7 @@ export default {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1140px;
 }
 
 .logo {
