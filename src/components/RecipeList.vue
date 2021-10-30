@@ -1,27 +1,15 @@
 <template>
   <div id="recipe-list" class="">
 
-<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg" alt="profile-sample2"/>
+            <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
+          <figure class="snip1581"><img v-bind:src="o.image ? require(`@/assets/recipes/${o.image}`) : null" alt="o.name"/>
   <figcaption>
-    <h3 class="title1">The</h3>
+    <h3 class="title1">{{ o.name }}</h3>
     <h3 class="title2">Winter</h3>
-    <h3 class="title3">Collection</h3>
-  </figcaption><a href="#"></a>
+    <h3 class="title3">{{ o.description }}</h3>
+  </figcaption><b-button :to="'/recipe/' + o.filename" variant="primary" v-t="'View Recipe'" />
 </figure>
-<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample13.jpg" alt="profile-sample7"/>
-  <figcaption>
-    <h3 class="title1">The</h3>
-    <h3 class="title2">Summer</h3>
-    <h3 class="title3">Collection</h3>
-  </figcaption><a href="#"></a>
-</figure>
-<figure class="snip1581"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg" alt="profile-sample6"/>
-  <figcaption>
-    <h3 class="title1">The</h3>
-    <h3 class="title2">Autumn</h3>
-    <h3 class="title3">Collection</h3>
-  </figcaption><a href="#"></a>
-</figure>
+            </div>
         <b-card-group deck>
       <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
 <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
@@ -49,13 +37,7 @@
       </div>
     </b-card-group>
         <div v-for="(o, i) in paginatedItems" v-bind:key="i" class="card-wrapper mb-2">
-          <figure class="snip1581"><img v-bind:src="o.image ? require(`@/assets/recipes/${o.image}`) : null" alt="o.name"/>
-  <figcaption>
-    <h3 class="title1">{{ o.name }}</h3>
-    <h3 class="title2">Winter</h3>
-    <h3 class="title3">{{ o.description }}</h3>
-  </figcaption><b-button :to="'/recipe/' + o.filename" variant="primary" v-t="'View Recipe'" /></a>
-</figure>
+          
     <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
               <b-card
